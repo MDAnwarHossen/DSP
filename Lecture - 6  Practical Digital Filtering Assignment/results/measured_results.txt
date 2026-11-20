@@ -1,0 +1,16 @@
+LECTURE 6 - MATLAB MEASUREMENTS
+Generated when lecture6_filtering.m was run in MATLAB.
+
+PART A (sensor; Fs=1000 Hz, cutoff=20 Hz)
+FIR taps: 61; IIR order: 4
+RMSE noisy: 0.38011668
+RMSE FIR: 0.10558962
+RMSE IIR: 0.05477381
+
+PART B (audio; Fs=8192 Hz)
+Added 50 Hz hum amplitude estimate: 0.14999673
+Residual narrow notch: 0.00092800; attenuation: -44.17 dB
+Residual wide notch: 0.00017200; attenuation: -58.81 dB
+Audio RMSE narrow vs clean: 0.00526181
+Audio RMSE wide vs clean: 0.00331942
+
