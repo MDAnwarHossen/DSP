@@ -1,0 +1,14 @@
+HYBRID TRADITIONAL + AI PIPELINE
+Input image: mountain-landscape.jpg
+Original image size: 1080 x 2560 x 3
+K-means clusters: 2
+Selected color cluster: 1 (higher mean Lab a*)
+Selected mask area: 49.93% of pixels
+AI model: SqueezeNet, input size 227 x 227
+Original image prediction: valley
+Original prediction score: 66.3071%
+Segmented image prediction: magpie
+Segmented prediction score: 17.6253%
+Prediction changed: true
+NOTE: Classification scores are not ground-truth accuracy.
+NOTE: A higher score alone does not prove the hybrid method is better.
