@@ -1,0 +1,12 @@
+LAB 5 - Edge Detection and Segmentation
+Image: peppers.png
+Dimensions: 384 x 512
+Total pixels: 196608
+Sobel edge pixels: 4757 (2.42%)
+Prewitt edge pixels: 4740 (2.41%)
+Canny edge pixels: 6821 (3.47%)
+LoG edge pixels: 8386 (4.27%)
+Otsu threshold (normalized): 0.39607843
+Foreground pixels in Otsu mask: 53972 (27.45%)
+8-connected foreground regions: 89
+Important: these intensity-based connected components are NOT necessarily distinct objects.
