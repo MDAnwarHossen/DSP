@@ -1,0 +1,4 @@
+Method,Clean_edge_pixels,Noisy_edge_pixels,Noisy_minus_clean
+Sobel (pre-smooth sigma 1),2099,2024,-75
+Canny (sigma 1),7816,18122,10306
+Canny (sigma 3),2780,3185,405
