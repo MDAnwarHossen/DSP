@@ -1,0 +1,11 @@
+Lab 3: Frequency-Domain Filtering with fft2
+Input: peppers.png
+Image dimensions: 384 rows x 512 columns
+Ideal low-pass cutoff radius: 40 bins
+Analytic frequency Gaussian sigma: 20 bins
+Matched spatial/FFT Gaussian kernel: 7x7; sigma=1.2 pixels
+Boundary condition for matched comparison: circular
+Maximum absolute difference (matched methods): 5.55111512312578e-16
+RMSE difference (matched methods): 1.23757078276153e-16
+NOTE: frequency sigma in bins and spatial sigma in pixels are not interchangeable.
+NOTE: all FFT filters in Sections 2-4 use implicit periodic boundaries.
