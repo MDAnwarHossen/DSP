@@ -1,0 +1,4 @@
+Tire stud detection (heuristic, uncalibrated)
+Image | Candidates | Accepted studs | Tire pixels | Studs/10000 pixels | Classification
+studded_tire.jpeg | 146 | 34 | 163085 | 2.08 | STUDDED TIRE
+summer_tire.jpg | 39 | 5 | 90314 | 0.55 | NON-STUDDED TIRE
