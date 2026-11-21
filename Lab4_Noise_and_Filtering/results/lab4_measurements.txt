@@ -1,0 +1,17 @@
+Lab 4 - Noise and Filtering (MATLAB measurements)
+Input image: peppers.png
+Image size: 384 x 512
+Random seed: 42 (twister)
+Gaussian noise: mean=0, variance=0.01
+Salt-and-pepper noise density: 0.05
+Mean filter: 3x3; Gaussian filter: 3x3, sigma=0.7; Median filter: 3x3
+All filters use symmetric boundary handling.
+MSE = mean((estimate-clean).^2); SNR=10log10(mean(clean.^2)/MSE).
+
+Method           |  Gaussian MSE |       S&P MSE |   Gaussian SNR |        S&P SNR
+No filter        |     0.0095888 |     0.0157649 |       11.51 dB |        9.36 dB
+Mean 3x3         |     0.0012705 |     0.0021114 |       20.29 dB |       18.09 dB
+Gaussian 3x3     |     0.0018403 |     0.0031090 |       18.68 dB |       16.41 dB
+Median 3x3       |     0.0018363 |     0.0001187 |       18.69 dB |       30.59 dB
+
+Use these values to update README.md after verifying plots.
