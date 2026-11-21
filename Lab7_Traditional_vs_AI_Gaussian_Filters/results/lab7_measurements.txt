@@ -1,0 +1,13 @@
+Lab 7 - Traditional vs AI Gaussian Filters
+Image: cameraman.tif
+Gaussian noise sigma: 0.0400; variance: 0.001600
+Random seed: 42 (twister)
+DnCNN status: Completed
+
+Method                    MSE     PSNR (dB)        SSIM
+Noisy               0.0015524       28.0900     0.63052
+Mean 3x3            0.0026903       25.7020     0.78241
+Median 3x3          0.0021890       26.5976     0.76563
+Gaussian 3x3        0.0014453       28.4004     0.81900
+Wiener 5x5          0.0006224       32.0593     0.88198
+AI DnCNN            0.0005718       32.4275     0.89482
