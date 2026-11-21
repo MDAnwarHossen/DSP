@@ -1,0 +1,8 @@
+Lab 2: 2D Convolution & FIR Filters
+Image: peppers.png
+Grayscale dimensions: 384 x 512
+Gaussian kernel: 7x7, sigma=1.20
+Difference: conv2 vs imfilter conv (symmetric 3x3 box): 3.33066907388e-16
+Difference: convolution vs correlation (asymmetric kernel): 0.759477124183
+Difference: 2D Gaussian vs two 1D passes: 4.4408920985e-16
+Gaussian arithmetic comparison (naive per pixel): 7x7=49 versus 7+7=14 multiplications.
